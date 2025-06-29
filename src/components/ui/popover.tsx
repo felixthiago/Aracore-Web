@@ -118,7 +118,7 @@ interface PopoverContentProps {
 }
 
 const PopoverContent = React.forwardRef<HTMLDivElement, PopoverContentProps>(
-  ({ children, className }, ref) => {
+  ({ children, className }) => {
     const { isOpen, closePopover, uniqueId } = usePopover();
     const contentRef = React.useRef<HTMLDivElement>(null);
 
