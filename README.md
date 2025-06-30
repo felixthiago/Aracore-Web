@@ -1,5 +1,8 @@
 ## Aracore Web 
-[![Aracore Web](https://github.com/felixthiago/Aracore-Web/blob/main/aracore.png)](https://aracore-web.vercel.app/){:target="_blank"}
+
+<a href="https://aracore-web.vercel.app/" target="_blank">
+  <img src="https://github.com/felixthiago/Aracore-Web/blob/main/aracore.png" alt="Aracore Web">
+</a>
 
 ## Getting Started
 First, run the development server:
