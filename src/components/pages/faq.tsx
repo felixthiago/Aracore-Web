@@ -104,13 +104,13 @@ export default function FAQSection() {
         </div>
 
         {/* contato suporte */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-16 ">
           <div className="bg-gray-900/40 backdrop-blur-sm rounded-3xl p-8 border border-white/10 shadow-2xl">
             <h3 className="text-2xl font-bold text-white mb-4">Ainda tem dúvidas?</h3>
             <p className="text-gray-300 mb-6">
               Nossa equipe está pronta para ajudar você a transformar a educação!
             </p>
-            <div className="flex justify-center items-center mt-4">
+            <div className="flex justify-center items-center mt-4 mb-50">
                 <SupportButton />
               </div>    
           </div>

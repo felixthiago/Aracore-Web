@@ -12,7 +12,7 @@ export default function PricingSection() {
   const pricingTiers = [
     {
       name: "Comum",
-      price: "Gratuito",
+      price: "Gratuito",  
       period: "",
       description: "Perfeito para começar sua jornada educacional",
       icon: <Star className="h-6 w-6" />,
@@ -23,7 +23,7 @@ export default function PricingSection() {
         "Progresso individual",
         "Correção de redação somente por I.A",
       ],
-      limitations: ["Sem acesso a simulados", "1 Redação por mês", "Sem mentoria personalizada"],
+      limitations: ["Acesso limitado a simulados", "1 Redação por mês", "Sem mentoria personalizada"],
       buttonText: "7 dias gratuitos!",
       buttonVariant: "secondary" as const,
       popular: false,

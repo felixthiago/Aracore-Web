@@ -73,10 +73,10 @@ export default function AboutSection() {
               <div className="flex justify-center mb-4">
                 <div className="p-3 rounded-full bg-gradient-to-r from-purple-800 via-blue-800 to-cyan-800">{stat.icon}</div>
               </div>
-              <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent mb-2">
-                {/* {stat.number} */}
+              <div className="text-3xl font-bold mb-2">
                 <NumberTicker
                   value={Number(stat.number.replace(/[^\d]/g, ""))}
+                  className = 'font-bold text-white'
                 />
               </div>
               <div className="text-gray-400 text-sm">{stat.label}</div>
