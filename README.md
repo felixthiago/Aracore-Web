@@ -1,5 +1,5 @@
 ## Getting Started
-
+[![Aracore Web](https://github.com/felixthiago/Aracore-Web/blob/main/aracore.png)](https://aracore-web.vercel.app/)
 First, run the development server:
 
 ```bash
